@@ -1,0 +1,30 @@
+[project]
+name = "refiner"
+version = "0.0.7"
+authors = [
+  { name="Rhun Captial", email="getrhun@gmail.com" },
+]
+description = "Refiner is a python package that allows you to store text as vectors in Pinecone and then search for similar text. It uses OpenAI to generate embeddings and then uses Pinecone to store and search for similar text."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "click",
+  "matplotlib",
+  "openai",
+  "pandas",
+  "pinecone-client",
+  "plotly",
+  "python-dotenv",
+  "scipy",
+  "scikit-learn",
+  "langchain",
+  "bs4"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adaro/ai-refiner"
